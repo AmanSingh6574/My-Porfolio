@@ -18,7 +18,7 @@ function Project() {
       name: "Shopzy App",
       img: shopyimg,
       description:"Tech Stack used: React.js | JavaScript | HTML | CSS | Redux The website consists of two pages, the homepage which displays a list of products, and the cart page which displays the selected product details and the summary of the total shopping amount Integrated an API to fetch products from fake store api and used Redux for easy state management",
-      gitid : "https://github.com/AmanSingh6574/Shopzy_App"
+      gitid : "https://github.com/AmanSingh6574/Shopzy-App--Fake-Shopping-App-"
         
         
     },
