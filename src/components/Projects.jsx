@@ -1,11 +1,22 @@
 import ProjectCard from "./ProjectCard";
+import shopyimg from "../assets/Shopzy.png"
+import passimg from "../assets/password_generator.png"
+
+import Weatherimg from "../assets/weather.png"
+
+import tikimg from "../assets/tik-tak-toe.png"
+
+import gifimg from "../assets/gif_generator.png"
+
+
+
 
 function Project() {
   const project_data = [
     {
       id: "1",
       name: "Shopzy App",
-      img: "\\src\\assets\\shopzy.png",
+      img: shopyimg,
       description:"Tech Stack used: React.js | JavaScript | HTML | CSS | Redux The website consists of two pages, the homepage which displays a list of products, and the cart page which displays the selected product details and the summary of the total shopping amount Integrated an API to fetch products from fake store api and used Redux for easy state management",
       gitid : "https://github.com/AmanSingh6574/Shopzy_App"
         
@@ -14,17 +25,17 @@ function Project() {
     {
       id: "2",
       name: "Weather Application",
-      img: "\\src\\assets\\weather.png",
+      img: Weatherimg,
       description:
         "Developed this application using Javascript and Progressive Web App (PWA) technologies which fetches data from OpenWeather API. The application provides users with real-time weather information for their current location or any location in the world. The user have to grant acces for their current location to see the weather conditions.",
       gitid : "https://github.com/AmanSingh6574/Weather-App",
-      link :"https://cosmic-platypus-62ed6a.netlify.app/"
+      link :"https://cosmic-platypus-62ed6a.netlify.app"
     },
 
     {
       id: "3",
       name: "tic-tac-toe-game ",
-      img: "\\src\\assets\\tik-tak-toe.png",
+      img: tikimg,
       description:
         "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript",
         gitid:"https://github.com/AmanSingh6574/tic-tac-toe-game",
@@ -33,7 +44,7 @@ function Project() {
     {
       id: "4",
       name: "Password Generator ",
-      img: "\\src\\assets\\password_generator.png",
+      img: passimg,
       description:
         "Generates the password automatically according to the given conditions such as include uppercase, lowercase letters, no of password required, etc. It also checks for the strength of the password generated and indicates it with green and red colors.",
         gitid:"https://github.com/AmanSingh6574/Password-Generator",
@@ -42,7 +53,7 @@ function Project() {
     {
       id: "5",
       name: "GIF Generator ",
-      img: "\\src\\assets\\gif_generator.png",
+      img: gifimg,
       description:
         "Tech Stack used: React.js | JavaScript | HTML. it generates Gif Randomly or by giving some instructions , used Giphy AIP to fecth the data from the server ",
         gitid:"https://github.com/AmanSingh6574/Random-Gif-Generator",
