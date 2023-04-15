@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import shopyimg from "../assets/Shopzy.png"
+import shopyimg from "../assets/shopzy.png"
 import passimg from "../assets/password_generator.png"
 
 import Weatherimg from "../assets/weather.png"
