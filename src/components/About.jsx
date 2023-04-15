@@ -35,7 +35,7 @@ function About() {
         <motion.p className="text-lg  leading-8 mt-14 -z-30  " animate={animation}>
           I'm a skilled Full Stack software developer with experience in
           JavaScript, and expertise in frameworks like React. I'm a quick
-          learner and collaborate closely with clients to create efficient,
+          learner and can collaborate closely with clients to create efficient,
           scalable, and user-friendly solutions that solve real-world problems.
           Let's work together to bring your ideas to life!
         </motion.p>
