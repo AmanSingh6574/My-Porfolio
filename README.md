@@ -6,7 +6,7 @@
 
 - <p>My resume, which is included on my website, provides a detailed overview of my education, work experience, and technical skills. I have a passion for developing attractive and user-friendly web interfaces and applications that meet the needs of clients and users.</p>
 
-- <p>In summary, my portfolio showcases my skills, experience, and expertise in web development. I am a dedicated and passionate developer who is always eager to take on new challenges and create innovative solutions.</p>
+- <p>In summary, my portfolio showcases my skills, experience, and expertise in web development.</p>
 
 <h2>Portfolio Preview</h2>
 
