@@ -17,7 +17,7 @@ function Home() {
             Hi, I'm <span className="text-4xl sm:text-8xl text-[#915EEF]">Aman</span>
           </span>
           <span className="text-gray-500 text-2xl">I develop Attractive, user</span>
-          <span className="text-gray-500 text-2xl">interaces and web application</span>
+          <span className="text-gray-500 text-2xl">interfaces and web applications</span>
 
           <div className="">
             <a name="resume" target="_blank" href="https://drive.google.com/file/d/1loARGBDYw9Xyu7LsPbWhrInUiyWULp3H/view?usp=share_link" className="flex group justify-start items-center  gap-3  w-fit py-3 cursor-pointer px-6 my-2 rounded-xl border">My Resume 
