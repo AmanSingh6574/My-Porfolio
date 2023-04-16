@@ -34,7 +34,7 @@ function About() {
         <h1 className=" mt-9 text-4xl font-bold inline border-b-4 border-gray-500 w-44" >Overview</h1>
         <motion.p className="text-lg  leading-8 mt-14 -z-30  " animate={animation}>
           I'm a skilled Full Stack software developer with experience in
-          JavaScript, and expertise in frameworks like React. I'm a quick
+          JavaScript and expertise in frameworks like React. I'm a quick
           learner and can collaborate closely with clients to create efficient,
           scalable, and user-friendly solutions that solve real-world problems.
           Let's work together to bring your ideas to life!
