@@ -1,11 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import shopyimg from "../assets/shopzy.png"
-import passimg from "../assets/password_generator.png"
-
 import Weatherimg from "../assets/weather.png"
-
-import tikimg from "../assets/tik-tak-toe.png"
-
+import tour from "../assets/tour.png"
 import gifimg from "../assets/gif_generator.png"
 
 
@@ -18,13 +14,21 @@ function Project() {
       name: "Shopzy App",
       img: shopyimg,
       description:"Tech Stack used: React.js | JavaScript | HTML | CSS | Redux The website consists of two pages, the homepage which displays a list of products, and the cart page which displays the selected product details and the summary of the total shopping amount Integrated an API to fetch products from fake store api and used Redux for easy state management",
-      gitid : "https://github.com/AmanSingh6574/Shopzy-App--Fake-Shopping-App-",
-      link : "https://main--bespoke-pony-3956e6.netlify.app/"
+      gitid : "https://github.com/AmanSingh6574/Shopzy_App"
         
         
     },
     {
       id: "2",
+      name: "Tour Guide Website",
+      img: tour,
+      description:
+        "Its a Frontend Project. Tech Stack used: React.js | JavaScript | HTML.The website is mobile and desktop responsive and consists of different sections like about , service , contact and Signup",
+        gitid:"https://github.com/AmanSingh6574/Tour-Guide-Website",
+        link:"https://gleaming-mermaid-6f5449.netlify.app/"
+    },
+    {
+      id: "3",
       name: "Weather Application",
       img: Weatherimg,
       description:
@@ -32,27 +36,8 @@ function Project() {
       gitid : "https://github.com/AmanSingh6574/Weather-App",
       link :"https://cosmic-platypus-62ed6a.netlify.app"
     },
-
-    {
-      id: "3",
-      name: "tic-tac-toe-game ",
-      img: tikimg,
-      description:
-        "This is a simple game of Tic-Tac-Toe built with HTML, CSS, and JavaScript",
-        gitid:"https://github.com/AmanSingh6574/tic-tac-toe-game",
-        link:"https://steady-llama-8085e6.netlify.app/"
-    },
     {
       id: "4",
-      name: "Password Generator ",
-      img: passimg,
-      description:
-        "Generates the password automatically according to the given conditions such as include uppercase, lowercase letters, no of password required, etc. It also checks for the strength of the password generated and indicates it with green and red colors.",
-        gitid:"https://github.com/AmanSingh6574/Password-Generator",
-        link:"https://gleeful-dolphin-629efe.netlify.app"
-    },
-    {
-      id: "5",
       name: "GIF Generator ",
       img: gifimg,
       description:
@@ -60,6 +45,7 @@ function Project() {
         gitid:"https://github.com/AmanSingh6574/Random-Gif-Generator",
         link:"https://frabjous-semifreddo-487fed.netlify.app"
     },
+    
   ];
   return (
     <div name="Projects" className="mt-10  w-full  mx-auto">

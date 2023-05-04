@@ -12,7 +12,7 @@ function Navbar() {
       <div className="hidden md:flex   ">
         <ul className="px-4 font-semibold text-lg cursor-pointer capitalize hover:scale-125 duration-200">
           <Link to="About" >
-            About{" "}
+            About
           </Link>
         </ul>
         <ul className="px-4 font-semibold text-lg cursor-pointer capitalize hover:scale-125 duration-200">
