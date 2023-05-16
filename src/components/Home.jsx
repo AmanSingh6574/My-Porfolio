@@ -20,7 +20,7 @@ function Home() {
           <span className="text-gray-500 text-2xl">interaces and web application</span>
 
           <div className="">
-            <a name="resume" target="_blank" href="https://drive.google.com/file/d/1loARGBDYw9Xyu7LsPbWhrInUiyWULp3H/view?usp=share_link" className="flex group justify-start items-center  gap-3  w-fit py-3 cursor-pointer px-6 my-2 rounded-xl border">My Resume 
+            <a name="resume" target="_blank" href="https://drive.google.com/file/d/1oBOcynvMHuu15PQFIO5hZUyhH1ifxGz1/view?usp=share_link" className="flex group justify-start items-center  gap-3  w-fit py-3 cursor-pointer px-6 my-2 rounded-xl border">My Resume 
             <span className="group-hover:rotate-180 duration-300"><FaArrowRight /></span></a>
           </div>
         </div>
