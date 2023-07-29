@@ -2,44 +2,38 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Cards from "./Cards";
-
+import collegeimg from "../assets/vjti.jpg";
 function About() {
-    const { ref, inView } = useInView({
-        threshold: 0.3,
-      });
-    
-      const animation = useAnimation();
-    
-      useEffect(() => {
-        if (inView) {
-          animation.start({
-            x: 0,
-            transition: {
-              type: "spring",
-              duration: 1,
-              bounce: 0.3,
-            },
-          });
-        }
-        if (!inView) {
-          animation.start({ x: "-100vw" });
-        }
-      }, [inView]);
 
 
   return (
-    <div name="About" className="w-full  ">
-      <div ref={ref} className="flex flex-col p-4 mx-auto max-w-screen-lg w-full h-full justify-center ">
-        <p className=" mb-9  text-3xl sm:mt-0 mt-11 hidden md:inline sm:text-7xl opacity-10 font-extrabold -z-30" >INTRODUCTION</p>
-        <h1 className=" mt-9 text-4xl font-bold inline border-b-4 border-gray-500 w-44" >Overview</h1>
-        <motion.p className="text-lg  leading-8 mt-14 -z-30  " animate={animation}>
-          I'm a skilled Full Stack software developer with experience in
-          JavaScript and expertise in frameworks like React. I'm a quick
-          learner and can collaborate closely with clients to create efficient,
-          scalable, and user-friendly solutions that solve real-world problems.
-          Let's work together to bring your ideas to life!
-        </motion.p>
-        <Cards/>
+    <div
+      name="About"
+      className="w-full min-h-screen mx-auto p-4 flex flex-col justify-center items-center "
+    >
+      <h1 className="text-4xl font-bold inline border-b-4 border-gray-500 w-44" >Overview</h1> 
+      <div className="text-cente mt-[60px] lg:mt-16 flex flex-wrap gap-10 justify-center items-center mx-auto ">
+        <div className="w-[300px] md:w-[500px] flex flex-col flex-wrap gap-3 p-2">
+          <p className="text-center leading-relaxed lg:text-left">
+            I am currently pursuing a Bachelor's degree in Electronics and
+            Telecommunication from Veermata Jijabai Technological Institute. I
+            have a strong passion for software development and open-source
+            contributions. I am particularly interested in working with the
+            MERN (MongoDB, Express.js, React.js, Node.js) stack.
+          </p>
+          <p className="text-center leading-relaxed lg:text-left">
+            As a problem solver, I am dedicated to overcoming challenges and
+            finding innovative solutions. I believe in the power of hard work
+            and continuously strive for excellence in my work.
+          </p>
+        </div>
+        <div className="mx-auto mt-7 md:mt-0 ">
+          <img
+            src={collegeimg} loading="lazy"
+            className=" w-full md:w-[400px] rounded-md mx-auto lg:mx-0 hover:scale-105 transition-all duration-200 "
+            alt="College"
+          />
+        </div>
       </div>
     </div>
   );
