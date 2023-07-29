@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Project from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Tech from "./components/tech";
+import Tech from "./components/Tech";
 
 function App() {
   return (
