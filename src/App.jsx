@@ -4,10 +4,9 @@ import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Project from "./components/Projects";
-
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Tech from "./components/tech";
 
 function App() {
   return (
@@ -15,10 +14,9 @@ function App() {
       <Navbar />
       <Home />
       <About/>
-     
+      <Tech/>
       <Project />
       <Contact /> 
-      <Footer/>
     </div>
   );
 }
