@@ -16,7 +16,7 @@ function Tech() {
         <h1 className="text-4xl font-bold inline border-b-4 border-gray-500 w-44">
           Tech Stack
         </h1>
-        <div className="mt-8 lg:mt-16 flex flex-wrap gap-10 justify-center items-center text-center mx-auto bg-white p-8 rounded-lg shadow-lg">
+        <div className="mt-8 lg:mt-16 flex flex-wrap gap-10 justify-center items-center text-center mx-aut0 bg-slate-100 p-8 rounded-lg shadow-lg">
           <div className="md:w-[500px]">
             <p className="text-center lg:text-left text-gray-800">
               My tech stack includes MongoDB for efficient database management,
@@ -27,7 +27,7 @@ function Tech() {
               with seamless user experiences.
             </p>
           </div>
-          <div className="w-full md:w-[400px] grid grid-cols-3 justify-center items-center text-center mx-auto gap-4">
+          <div className="w-full md:w-[400px] grid grid-cols-3 self-center place-content-center p-4 mx-auto gap-4">
             <img
               className="w-[80px] h-[80px] hover:scale-110 transition-transform"
               src={html}

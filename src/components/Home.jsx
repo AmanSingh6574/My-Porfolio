@@ -25,7 +25,7 @@ function Home() {
             <a
               name="resume"
               target="_blank"
-              href="https://drive.google.com/file/d/1Zwd_tbzXrZBvTjKbo1zQXfQ9eHiYPuja/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jzEuFh7dZKEdCerg-PWGRZa63NTWyy63/view?usp=sharing"
               className="flex group justify-start items-center gap-3  w-fit py-3 cursor-pointer px-6 my-2 rounded-xl border"
             >
               My Resume{" "}

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,55 +12,35 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
-
 }
 
 body {
   background-color: #050816;
-
 }
 
 .nav {
- 
   background-color: rgb(47 50 74 / 23%);
   backdrop-filter: blur(6px);
- 
 }
-
-
-
 
 .bg-tertiary {
   --tw-bg-opacity: 1;
   background-color: rgb(21 16 48 / var(--tw-bg-opacity));
 }
 
-
-
-
 .heading span {
- 
-  color: #915EFF;
-  
+  color: #915eff;
 }
-
-
-
-
-
 
 .text {
   --tw-text-opacity: 1;
   color: rgb(170 166 195 / var(--tw-text-opacity));
-  
 }
 
-
-
-.form{
+.form {
   /* width: 489px; */
   background-color: #100d25;
   border-radius: 20px;
@@ -71,14 +51,14 @@ body {
   /* margin-bottom: 200px; */
 }
 
-.form label h2{
+.form label h2 {
   font-size: 16px;
   margin: 0 0 16px;
   font-weight: 400;
-
 }
 
-.form label input ,.form label textarea {
+.form label input,
+.form label textarea {
   width: 100%;
   border-radius: 10px;
   background-color: #211e35;
@@ -87,12 +67,12 @@ body {
   margin-bottom: 20px;
   border: none;
 }
-.form label input::placeholder , .form label textarea::placeholder{
+.form label input::placeholder,
+.form label textarea::placeholder {
   font-size: 16px;
-
 }
 
-.btn{
+.btn {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 2rem;
@@ -102,12 +82,14 @@ body {
   border: none;
   outline: none;
   --tw-bg-opacity: 1;
-  background-color: rgb(21 16 48 / var(--tw-bg-opacity));
+  /* background-color: rgb(21 16 48 / var(--tw-bg-opacity)); */
+  background-color: rgba(133, 76, 218, 0.912);
   font-weight: 900;
   font-size: 18px;
-  box-shadow: rgba(0,0,0,0.4);
+  box-shadow: rgba(0, 0, 0, 0.4);
   cursor: pointer;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 18px;
+  border-radius: 99% 1% 100% 0% / 35% 71% 29% 65%;
 }
 
 .loader {
@@ -157,4 +139,101 @@ body {
     height: 4px;
     opacity: 0;
   }
+}
+footer {
+  width: 100%;
+  height: 350x;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.footer-container {
+  display: flex;
+  
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+.footer-logo {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-links a:hover {
+  text-shadow: 0px 0px 10px #587ef4;
+  letter-spacing: 1px;
+}
+.footer-social ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.footer-social a:hover {
+  color: #587ef4;
+}
+.footer-social i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-social i:hover {
+  color: #587ef4;
+}
+.footer-social p {
+  position: absolute;
+  bottom: 0px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer-social p:hover {
+  color: #587ef4;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+}
+.footer-git p a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.footer-git {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.git-icon {
+  font-size: 1.5rem;
+  padding: 4px;
 }
